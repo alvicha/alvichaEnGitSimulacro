@@ -8,10 +8,10 @@ calculoTarifa3=( $numLlamadas * 2 )+20;
 
 if (( ( calculoTarifa3 < calculoTarifa2 ) && ( calculoTarifa3 < calculoTarifa1 ) ));
 then
-echo "La tarifa recomendada es la tarifa 3."
+echo "La tarifa que debe de escoger es la tarifa 3."
 elif (( ( calculoTarifa2 < calculoTarifa1 ) && ( calculoTarifa2 < calculoTarifa3 ) ));
 then
-echo "La tarifa recomendada es la tarifa 2."
+echo "La tarifa que debe de escoger es la tarifa 2."
 else
-echo "La tarifa recomendada es la tarifa 1."
+echo "La tarifa que debe de escoger es la tarifa 1."
 fi
